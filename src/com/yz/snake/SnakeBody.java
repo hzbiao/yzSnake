@@ -225,7 +225,6 @@ public class SnakeBody extends Canvas implements Runnable {
 			if (snakeFood.isAt(snake.getX(), snake.getY())) {
 				snake.eat();
 				score += level;
-
 				foodEaten++;
 
 				if (foodEaten > (level << 1)) {
